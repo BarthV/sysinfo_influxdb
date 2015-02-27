@@ -15,7 +15,7 @@ import (
 	"flag"
 	"fmt"
 	"github.com/cloudfoundry/gosigar"
-	influxClient "github.com/influxdb/influxdb/client"
+	influxClient "./lib/influxdb-client"
 	"io/ioutil"
 	"os"
 	"os/exec"
